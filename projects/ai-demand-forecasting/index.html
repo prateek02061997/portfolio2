@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI-Powered Retail Demand Forecasting System | Prateek Parihar</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <style>
+      .project-hero {
+        background: linear-gradient(135deg, rgba(79, 157, 255, 0.15), rgba(124, 244, 255, 0.1));
+        border-bottom: 1px solid var(--border);
+        padding: 3rem 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .project-hero h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+        margin-bottom: 0.5rem;
+        background: linear-gradient(135deg, var(--ink) 0%, var(--accent-bright) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .project-meta {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin-top: 1.5rem;
+      }
+
+      .meta-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .meta-label {
+        color: var(--muted);
+        font-size: 0.85rem;
+        font-weight: 500;
+      }
+
+      .meta-value {
+        color: var(--accent-bright);
+        font-weight: 600;
+      }
+
+      .project-content {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .project-section {
+        margin-bottom: 3rem;
+      }
+
+      .project-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--ink);
+      }
+
+      .project-section p {
+        color: var(--muted);
+        line-height: 1.8;
+        margin-bottom: 1rem;
+      }
+
+      .project-section ul {
+        list-style: none;
+        margin-bottom: 1rem;
+      }
+
+      .project-section li {
+        color: var(--muted);
+        padding: 0.5rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+      }
+
+      .project-section li::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: var(--accent);
+      }
+
+      .code-block {
+        background: rgba(0, 0, 0, 0.3);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 0.85rem;
+        color: var(--accent-bright);
+        overflow-x: auto;
+      }
+
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--accent);
+        text-decoration: none;
+        margin-bottom: 2rem;
+        font-weight: 500;
+        transition: color 0.2s;
+      }
+
+      .back-link:hover {
+        color: var(--accent-bright);
+      }
+    </style>
+  </head>
+  <body class="page">
+    <header class="page-header">
+      <div class="inner">
+        <a href="../../index.html" class="brand">
+          <span class="brand-mark">PP</span>
+          <div>
+            <strong>Prateek Parihar</strong>
+          </div>
+        </a>
+        <nav>
+          <a href="../../index.html#home">Home</a>
+          <a href="../../index.html#about">About</a>
+          <a href="../../index.html#skills">Skills</a>
+          <a class="active" href="../../index.html#projects">Projects</a>
+          <a href="../../index.html#certifications">Certifications</a>
+          <a href="../../index.html#resume">Resume</a>
+          <a href="../../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <a href="../../projects.html" class="back-link">← Back to Projects</a>
+
+      <div class="project-hero">
+        <h1>AI-Powered Retail Demand Forecasting System</h1>
+        <p>Designed and validated a retail demand forecasting workflow that turned historical sales patterns into planning recommendations for inventory and replenishment decisions.</p>
+        <div class="project-meta">
+          <div class="meta-item">
+            <span class="meta-label">Year:</span>
+            <span class="meta-value">2026</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Outcome:</span>
+            <span class="meta-value">Forecast-led 15% stock waste reduction opportunity</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Focus:</span>
+            <span class="meta-value">Python • Forecasting • Explainable AI</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <div class="project-section">
+          <h2>Project Overview</h2>
+          <p>
+            This project focused on a real business problem: reducing inventory waste without increasing stockout risk.
+            I framed the forecasting problem as a decision-support use case, built a Prophet-based model, and translated
+            the outputs into planning guidance that non-technical stakeholders could use in weekly inventory reviews.
+          </p>
+        </div>
+
+        <div class="project-section">
+          <h2>Objectives</h2>
+          <ul>
+            <li>Define a clear AI use case tied to inventory and planning outcomes</li>
+            <li>Forecast weekly demand with business-friendly confidence ranges</li>
+            <li>Support explainable recommendations for stock and replenishment decisions</li>
+            <li>Evaluate the model against measurable waste-reduction outcomes</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Methodology</h2>
+          <ul>
+            <li><strong>Use Case Definition:</strong> Mapped business pain points around stock waste, planning uncertainty, and replenishment timing</li>
+            <li><strong>Data Preparation:</strong> Cleaned and aggregated historical sales data into a forecasting-ready structure</li>
+            <li><strong>Model Build:</strong> Developed a Prophet-based time series workflow to capture seasonality and trend shifts</li>
+            <li><strong>Validation:</strong> Compared forecast outputs against historical periods and planning expectations</li>
+            <li><strong>Decision Framing:</strong> Translated forecasts into operational recommendations stakeholders could interpret easily</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Technical Stack</h2>
+          <ul>
+            <li><strong>Language:</strong> Python 3.8+</li>
+            <li><strong>Core Libraries:</strong> Prophet, Pandas, NumPy, Matplotlib</li>
+            <li><strong>Data Source:</strong> CSV with daily sales transactions</li>
+            <li><strong>Evaluation Metrics:</strong> MAPE, RMSE, and business impact modelling for waste reduction</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Key Results</h2>
+          <ul>
+            <li><strong>15% waste-reduction opportunity:</strong> Forecast-led planning identified a credible opportunity to reduce overstock situations</li>
+            <li><strong>Explainable outputs:</strong> Trend and seasonality insights made recommendations easier to communicate to non-technical stakeholders</li>
+            <li><strong>Decision support:</strong> Weekly planning scenarios gave clearer guidance for inventory actions</li>
+            <li><strong>Reusable workflow:</strong> The model structure can be extended with promotions, holidays, and additional business signals</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Data Format</h2>
+          <p>Sample data structure in <code>data/sample_demand.csv</code>:</p>
+          <div class="code-block">
+Date,Sales<br>
+2023-01-01,150<br>
+2023-01-02,165<br>
+2023-01-03,142<br>
+...
+          </div>
+        </div>
+
+        <div class="project-section">
+          <h2>Implementation Highlights</h2>
+          <ul>
+            <li>Automatic changepoint detection for sales trend shifts</li>
+            <li>Custom seasonality settings for retail calendar (holidays, promotions)</li>
+            <li>Business-friendly outputs suitable for operational review</li>
+            <li>Clear path for integration into a broader AI-enabled planning workflow</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">© <span id="year"></span> Prateek Parihar</footer>
+    <script src="../../script.js?v=20260801"></script>
+  </body>
+</html>

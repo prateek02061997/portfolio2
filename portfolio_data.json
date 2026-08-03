@@ -1,0 +1,191 @@
+{
+  "profile": {
+    "name": "Prateek Parihar",
+    "title": "Data Analyst | AI Automation | Business Intelligence",
+    "location": "Auckland, New Zealand",
+    "summary": "Commercially minded Business and Insights Analyst focused on converting operational and customer data into practical business decisions.",
+    "about": "Prateek combines business context, analytics, and AI workflow automation to improve service efficiency, reporting clarity, and strategic decision quality."
+  },
+  "skills": {
+    "business_intelligence": [
+      "Power BI",
+      "Tableau",
+      "Advanced Excel",
+      "Power Query",
+      "DAX"
+    ],
+    "data_and_analytics": [
+      "SQL",
+      "Python",
+      "Root Cause Analysis",
+      "Customer Journey Analytics",
+      "Trend Analysis"
+    ],
+    "business_partnering": [
+      "Stakeholder Management",
+      "Influencing Leaders",
+      "KPI Reporting",
+      "Cross-functional Collaboration"
+    ],
+    "operations_and_ai": [
+      "Process Improvement",
+      "UAT",
+      "Data Quality Checks",
+      "API Integration",
+      "GitHub Copilot",
+      "Claude"
+    ]
+  },
+  "projects": [
+    {
+      "name": "AI CV Assistant",
+      "description": "AI-powered resume optimization assistant for ATS compatibility, rewrite guidance, and cover letter generation.",
+      "technology": [
+        "Gemini API",
+        "Claude API",
+        "Python",
+        "Telegram Bot",
+        "Prompt Engineering"
+      ],
+      "status": "Live Prototype",
+      "links": {
+        "details": "projects/ai-cv-assistant/index.html"
+      }
+    },
+    {
+      "name": "AI Business Intelligence Copilot",
+      "description": "Analytics platform that turns uploaded datasets into business insights, dashboard recommendations, and report guidance.",
+      "technology": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Gemini API",
+        "MCP Connector"
+      ],
+      "status": "Beta Build",
+      "links": {
+        "details": "projects/ai-bi-copilot/index.html"
+      }
+    },
+    {
+      "name": "Fuel Prices and EV Demand in New Zealand",
+      "description": "Master's thesis applying panel analysis, survey data, and real-world testing to evaluate EV adoption drivers.",
+      "technology": [
+        "Econometrics",
+        "ARIMA",
+        "Elasticity Analysis",
+        "Survey Analytics"
+      ],
+      "status": "Published",
+      "links": {
+        "details": "projects/ev-fuel-price-thesis/index.html"
+      }
+    },
+    {
+      "name": "AI-Powered Retail Demand Forecasting System",
+      "description": "Forecast-led planning workflow designed to reduce inventory waste and improve replenishment decisions.",
+      "technology": [
+        "Python",
+        "Prophet",
+        "Pandas"
+      ],
+      "status": "Case Study",
+      "links": {
+        "details": "projects/ai-demand-forecasting/index.html"
+      }
+    },
+    {
+      "name": "Gilmours Workflow Analysis and Process Redesign",
+      "description": "Workflow mapping and delay diagnosis project with improvement recommendations for delivery performance.",
+      "technology": [
+        "Process Mapping",
+        "Root Cause Analysis",
+        "Stakeholder Analysis"
+      ],
+      "status": "Operational",
+      "links": {
+        "details": "projects/gilmours-delivery-efficiency/index.html"
+      }
+    },
+    {
+      "name": "Synlait Milk Supply Chain Optimisation",
+      "description": "Supply chain optimization strategy using design-thinking diagnostics and KPI recommendations.",
+      "technology": [
+        "Supply Chain",
+        "Design Thinking",
+        "KPI Strategy"
+      ],
+      "status": "Strategy",
+      "links": {
+        "details": "projects/synlait-supply-chain-optimization/index.html"
+      }
+    },
+    {
+      "name": "Generative AI Business Process Automation",
+      "description": "Multi-step AI workflow automation that reduced repetitive reporting and drafting effort.",
+      "technology": [
+        "Claude API",
+        "OpenAI API",
+        "Prompt Engineering"
+      ],
+      "status": "Automation",
+      "links": {
+        "details": "projects/interactive-dashboard/index.html"
+      }
+    },
+    {
+      "name": "Genesis Energy Supply Chain Analysis",
+      "description": "Industry case analyzing energy supply chain resilience, risks, and strategy options.",
+      "technology": [
+        "Risk Analysis",
+        "Supply Chain",
+        "Sustainability Strategy"
+      ],
+      "status": "Industry Case",
+      "links": {
+        "details": "projects/genesis-project/index.html"
+      }
+    }
+  ],
+  "professional_experience": [
+    {
+      "role": "Data Logician and Field Services Specialist",
+      "company": "AA New Zealand",
+      "period": "Apr 2026 - Present"
+    },
+    {
+      "role": "Customer Insights Specialist (Uber Eats Process)",
+      "company": "Teleperformance",
+      "period": "Jul 2022 - Dec 2023"
+    },
+    {
+      "role": "Customer Experience and Operations Specialist",
+      "company": "Upstox",
+      "period": "Apr 2021 - Apr 2022"
+    },
+    {
+      "role": "Data Associate",
+      "company": "Wipro Limited",
+      "period": "Oct 2019 - Mar 2021"
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure AI Fundamentals (AI-900)",
+    "SQL (Simplilearn)",
+    "Google Analytics Certification (Coursera)"
+  ],
+  "education": [
+    "Master of Applied Business (Business Analytics) - Unitec Institute of Technology (2024-2025)",
+    "Bachelor of Technology (Automobile Engineering) - Rajasthan Technical University (2015-2019)"
+  ],
+  "contact": {
+    "email": "pprateek26@gmail.com",
+    "linkedin": "https://linkedin.com/in/pprateek26",
+    "github": "https://github.com/prateek02061997",
+    "resume_pdf": "projects/Prateek_Parihar_CV_Generic.pdf"
+  },
+  "assistant_rules": {
+    "scope": "Answer only from this portfolio data. If the question is outside scope, state that the information is not available in Prateek's portfolio.",
+    "tone": "Professional, concise, recruiter-friendly"
+  }
+}

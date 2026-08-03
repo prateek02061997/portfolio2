@@ -1,0 +1,9 @@
+stage,batch_id,units_in,units_out,loss_units,downtime_minutes
+Pasteurization,B-1001,10000,9800,200,35
+Homogenization,B-1001,9800,9720,80,20
+Filling,B-1001,9720,9600,120,45
+Packaging,B-1001,9600,9550,50,15
+Pasteurization,B-1002,11000,10820,180,25
+Homogenization,B-1002,10820,10710,110,30
+Filling,B-1002,10710,10560,150,50
+Packaging,B-1002,10560,10510,50,20
