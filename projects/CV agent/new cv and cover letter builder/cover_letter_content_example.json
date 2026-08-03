@@ -1,0 +1,19 @@
+{
+  "name": "Prateek Parihar",
+  "contact_line": "Auckland, NZ | +64 022 562 0449 | pprateek26@gmail.com",
+  "links": [
+    {"text": "linkedin.com/in/pprateek26", "url": "https://linkedin.com/in/pprateek26"},
+    {"text": "Portfolio", "url": "https://prateek02061997.github.io/Prateek-Portfolio"},
+    {"text": "KiwiBudgetTours.com", "url": "https://kiwibudgettours.com"}
+  ],
+  "date": "25 July 2026",
+  "recipient_lines": ["Hiring Team", "ASB", "North Wharf, Auckland"],
+  "salutation": "Dear Hiring Team,",
+  "body_paragraphs": [
+    "I am writing to apply for the Associate Insights Analyst role within the Personal Bank Remediation team at ASB. I like the clarity of purpose in this role, using data to identify where things went wrong for customers and helping put it right.",
+    "In my current role at AA New Zealand, I work daily with operational data to trace root causes and keep reporting accurate and consistent. Before that, at Wipro, I validated healthcare data structures using SQL and Power BI within strict governance standards.",
+    "I would welcome the opportunity to talk through how I could contribute to the team. Thank you for considering my application."
+  ],
+  "closing": "Kind regards,",
+  "sign_off_name": "Prateek Parihar"
+}
