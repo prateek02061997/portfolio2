@@ -1,0 +1,31 @@
+# Python virtual environments
+.venv/
+Manu.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code local settings
+.vscode/
+
+# Local document archive not for publishing
+Projects11/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Node dependencies and build output
+node_modules/
+
+# Environment secrets
+.env

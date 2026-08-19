@@ -1,0 +1,26 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1A14"/>
+      <stop offset="1" stop-color="#12271E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="18" fill="url(#bg4)"/>
+  <rect x="60" y="56" width="1160" height="88" rx="14" fill="#173126" stroke="#2E5A46"/>
+  <text x="92" y="111" fill="#DBFFED" font-family="Segoe UI, Arial" font-size="30" font-weight="700">Supply Chain Optimization - Synlait</text>
+  <rect x="80" y="190" width="700" height="460" rx="14" fill="#142A21" stroke="#2D5A46"/>
+  <text x="112" y="236" fill="#A4E5C5" font-family="Segoe UI, Arial" font-size="22">Yield Loss Funnel</text>
+  <polygon points="140,280 700,280 620,340 220,340" fill="#7CF4FF" opacity="0.75"/>
+  <polygon points="220,360 620,360 560,420 280,420" fill="#4F9DFF" opacity="0.7"/>
+  <polygon points="280,440 560,440 520,500 320,500" fill="#5AD3A7" opacity="0.75"/>
+  <polygon points="320,520 520,520 490,580 350,580" fill="#38C18B" opacity="0.8"/>
+  <rect x="810" y="190" width="390" height="210" rx="14" fill="#142A21" stroke="#2D5A46"/>
+  <text x="840" y="236" fill="#A4E5C5" font-family="Segoe UI, Arial" font-size="22">Downtime Pareto</text>
+  <polyline points="850,350 910,300 970,290 1030,270 1090,260 1150,255" fill="none" stroke="#7CF4FF" stroke-width="7"/>
+  <rect x="810" y="420" width="180" height="230" rx="12" fill="#142A21" stroke="#2D5A46"/>
+  <text x="838" y="468" fill="#A4E5C5" font-family="Segoe UI, Arial" font-size="18">Waste</text>
+  <text x="840" y="534" fill="#ECFFF5" font-family="Segoe UI, Arial" font-size="46" font-weight="700">-12%</text>
+  <rect x="1020" y="420" width="180" height="230" rx="12" fill="#142A21" stroke="#2D5A46"/>
+  <text x="1044" y="468" fill="#A4E5C5" font-family="Segoe UI, Arial" font-size="18">Yield</text>
+  <text x="1048" y="534" fill="#ECFFF5" font-family="Segoe UI, Arial" font-size="46" font-weight="700">+6%</text>
+</svg>

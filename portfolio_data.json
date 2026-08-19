@@ -1,0 +1,291 @@
+{
+  "profile": {
+    "name": "Prateek Parihar",
+    "title": "Data Analyst | AI Automation | Business Intelligence",
+    "location": "Auckland, New Zealand",
+    "summary": "Commercially minded Business and Insights Analyst focused on converting operational and customer data into practical business decisions.",
+    "about": "Prateek combines business context, advanced analytics, and AI workflow automation to improve service efficiency, reporting clarity, and strategic decision quality. He specializes in Power BI, SQL, Python, econometrics, process redesign, and generative AI integrations.",
+    "target_roles": [
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "Insights & Analytics Specialist",
+      "AI Automation Analyst"
+    ]
+  },
+  "skills": {
+    "business_intelligence": [
+      "Power BI",
+      "Tableau",
+      "Advanced Excel",
+      "Power Query",
+      "DAX",
+      "Executive KPI Dashboards"
+    ],
+    "data_and_analytics": [
+      "SQL",
+      "Python",
+      "Econometrics & Panel Data Analysis",
+      "ARIMA Time-Series Forecasting",
+      "Granger Causality Testing",
+      "Root Cause Analysis",
+      "Customer Journey Analytics",
+      "Trend Analysis"
+    ],
+    "business_partnering": [
+      "Stakeholder Management",
+      "Influencing Leadership",
+      "KPI & SLA Performance Reporting",
+      "Cross-functional Collaboration",
+      "UAT & Requirements Gathering"
+    ],
+    "operations_and_ai": [
+      "Process Improvement & Workflow Mapping",
+      "Data Quality Checks & Validation",
+      "REST API & LLM Integration",
+      "Prompt Engineering",
+      "Google Gemini API",
+      "Claude API",
+      "GitHub Copilot"
+    ]
+  },
+  "projects": [
+    {
+      "id": "ai-cv-assistant",
+      "name": "AI CV Assistant",
+      "status": "Live Prototype",
+      "category": "Generative AI / Product",
+      "summary": "AI-powered resume optimization assistant for ATS compatibility, rewrite guidance, and tailored cover letter generation.",
+      "problem": "Job seekers often submit resumes unoptimized for ATS software or role-specific keyword requirements, leading to low interview conversion.",
+      "solution": "Built an AI-driven resume scoring and optimization tool that evaluates CV alignment, highlights skill gaps, and generates role-tailored cover letters.",
+      "technology": [
+        "Gemini API",
+        "Claude API",
+        "Python",
+        "Telegram Bot",
+        "Prompt Engineering"
+      ],
+      "architecture": "User Resume Input -> Prompt Router Engine -> LLM Evaluation Layer -> ATS Scoring Engine -> Recommendation & Cover Letter Builder",
+      "key_results": "Automates resume alignment evaluation and produces tailored application materials in seconds.",
+      "links": {
+        "details": "projects/ai-cv-assistant/index.html"
+      }
+    },
+    {
+      "id": "ai-bi-copilot",
+      "name": "AI Business Intelligence Copilot",
+      "status": "Beta Build",
+      "category": "AI + BI Platform",
+      "summary": "Analytics platform that converts raw uploaded datasets into executive business insights, dashboard recommendations, and DAX/SQL queries.",
+      "problem": "Non-technical business leaders struggle to quickly extract structured stories and actionable KPI drivers from complex tabular data.",
+      "solution": "Created an AI-assisted analytics copilot that ingests raw business datasets, performs automated data profiling, and outputs structured insight summaries and visual chart recommendations.",
+      "technology": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Gemini API",
+        "MCP Connector"
+      ],
+      "architecture": "Data Upload -> SQL/Pandas Processing -> LLM Insight Engine -> Power BI Layout Mapper -> Executive Report",
+      "key_results": "Drastically reduces time-to-insight for operational dataset exploration.",
+      "links": {
+        "details": "projects/ai-bi-copilot/index.html"
+      }
+    },
+    {
+      "id": "ev-fuel-price-thesis",
+      "name": "Master's Thesis: Fuel Prices and EV Demand in New Zealand",
+      "status": "Published",
+      "category": "Applied Research & Econometrics",
+      "summary": "BSNS9000 Industry Research Project examining how fuel prices, policy settings, and consumer behavior drive electric vehicle adoption in NZ.",
+      "problem": "Understanding whether market fuel price pressure alone drives EV adoption or if government policy stability and total cost of ownership (TCO) perceptions play a larger role.",
+      "solution": "Executed a multi-method research design blending 15-year macroeconomic panel data, a primary consumer survey, econometric modeling, and a 3-month real-world EV ownership trial.",
+      "methodology": [
+        "15-Year International Panel Data Analysis (2010-2024 across NZ, Norway, China, US)",
+        "Primary Consumer Survey with 103 NZ respondents",
+        "3-Month Real-World EV Ownership Trial using a 2011 Nissan Leaf",
+        "Econometric Modeling using Elasticity Analysis, Granger Causality, and ARIMA Time-Series Forecasting",
+        "7-Step Revenue-Neutral Policy Recommendation Framework"
+      ],
+      "key_results": "Proved that policy uncertainty creates immediate adoption drops despite high fuel prices, and designed a revenue-neutral 7-step policy plan for sustainable EV transition.",
+      "technology": [
+        "Econometrics",
+        "ARIMA",
+        "Granger Causality",
+        "Survey Analytics",
+        "Panel Analysis"
+      ],
+      "links": {
+        "details": "projects/ev-fuel-price-thesis/index.html"
+      }
+    },
+    {
+      "id": "ai-demand-forecasting",
+      "name": "AI-Powered Retail Demand Forecasting System",
+      "status": "Case Study",
+      "category": "Predictive Analytics",
+      "summary": "Forecast-led planning workflow designed to reduce inventory waste and improve replenishment decision confidence.",
+      "problem": "Traditional static ordering caused overstocking in slow-moving categories and stockouts during peak demand periods.",
+      "solution": "Implemented time-series demand forecasting using Prophet and Python to generate dynamic reorder point recommendations.",
+      "technology": [
+        "Python",
+        "Prophet",
+        "Pandas",
+        "Time-Series Analysis"
+      ],
+      "key_results": "Identified potential 15% reduction in inventory waste and stockout frequency.",
+      "links": {
+        "details": "projects/ai-demand-forecasting/index.html"
+      }
+    },
+    {
+      "id": "gilmours-delivery-efficiency",
+      "name": "Gilmours Workflow Analysis and Process Redesign",
+      "status": "Operational",
+      "category": "Process Optimization",
+      "summary": "Workflow mapping and delay diagnosis project delivering actionable recommendations to improve delivery reliability.",
+      "problem": "Operational bottlenecks and dispatch delays led to customer satisfaction penalties in wholesale delivery.",
+      "solution": "Conducted end-to-end workflow mapping, driver interviews, and root cause delay analysis to redesign loading and dispatch sequences.",
+      "technology": [
+        "Process Mapping",
+        "Root Cause Analysis",
+        "Stakeholder Interviews",
+        "Workflow Redesign"
+      ],
+      "key_results": "Identified dispatch bottleneck solutions projected to reduce delivery delays by 20%.",
+      "links": {
+        "details": "projects/gilmours-delivery-efficiency/index.html"
+      }
+    },
+    {
+      "id": "synlait-supply-chain-optimization",
+      "name": "Synlait Milk Supply Chain Optimisation",
+      "status": "Strategy",
+      "category": "Supply Chain Strategy",
+      "summary": "Supply chain optimization strategy leveraging design-thinking diagnostics and sustainability-linked KPI recommendations.",
+      "problem": "Complex dairy supply chain variables created vulnerability to input volatility and emissions tracking gaps.",
+      "solution": "Applied design-thinking diagnostics to model supplier-to-plant logistics and recommend sustainable performance KPIs.",
+      "technology": [
+        "Supply Chain Strategy",
+        "Design Thinking",
+        "KPI Frameworks"
+      ],
+      "key_results": "Delivered executive roadmap for logistics resilience and sustainability reporting.",
+      "links": {
+        "details": "projects/synlait-supply-chain-optimization/index.html"
+      }
+    },
+    {
+      "id": "interactive-dashboard",
+      "name": "Generative AI Business Process Automation",
+      "status": "Automation",
+      "category": "AI Automation",
+      "summary": "Multi-step AI workflow automation reducing manual reporting overhead and repetitive drafting effort.",
+      "problem": "Weekly operational reporting required hours of manual data extraction, formatting, and commentary writing.",
+      "solution": "Created an automated LLM workflow (Claude & OpenAI APIs) that pulls weekly metric summaries, generates executive draft commentaries, and flags anomalies.",
+      "technology": [
+        "Claude API",
+        "OpenAI API",
+        "Prompt Engineering",
+        "Python Scripting"
+      ],
+      "key_results": "Achieved a 70% reduction in manual reporting compilation time.",
+      "links": {
+        "details": "projects/interactive-dashboard/index.html"
+      }
+    },
+    {
+      "id": "genesis-project",
+      "name": "Genesis Energy Supply Chain Analysis",
+      "status": "Industry Case",
+      "category": "Energy & Risk Analysis",
+      "summary": "Industry case analyzing energy supply chain resilience, fuel transition risks, and long-term sustainability options.",
+      "problem": "Balancing energy reliability with renewable transition commitments amidst fuel supply volatility.",
+      "solution": "Evaluated supply chain dependencies, risk exposure, and strategic options for fuel security and carbon reduction.",
+      "technology": [
+        "Risk Analysis",
+        "Supply Chain",
+        "Sustainability Strategy"
+      ],
+      "key_results": "Produced strategic risk mitigation matrix for energy transition planning.",
+      "links": {
+        "details": "projects/genesis-project/index.html"
+      }
+    }
+  ],
+  "professional_experience": [
+    {
+      "role": "Data Logician and Field Services Specialist",
+      "company": "AA New Zealand",
+      "period": "Apr 2026 - Present",
+      "location": "Auckland, NZ",
+      "highlights": [
+        "Analyzing field service operational data to improve dispatch efficiency and service turnaround.",
+        "Performing data quality logging, operational tracking, and process efficiency analysis."
+      ]
+    },
+    {
+      "role": "Customer Insights Specialist (Uber Eats Process)",
+      "company": "Teleperformance",
+      "period": "Jul 2022 - Dec 2023",
+      "location": "Auckland / Remote",
+      "highlights": [
+        "Analyzed customer journey datasets and defect trends for Uber Eats operational workflows.",
+        "Identified root causes of service bottlenecks and presented KPI recommendations to team leads.",
+        "Improved operational reporting accuracy through structured trend monitoring."
+      ]
+    },
+    {
+      "role": "Customer Experience and Operations Specialist",
+      "company": "Upstox",
+      "period": "Apr 2021 - Apr 2022",
+      "location": "India",
+      "highlights": [
+        "Monitored customer onboarding operations, identified user friction points, and conducted operational UAT testing.",
+        "Collaborated with product teams to refine operational workflows and improve SLA metrics."
+      ]
+    },
+    {
+      "role": "Data Associate",
+      "company": "Wipro Limited",
+      "period": "Oct 2019 - Mar 2021",
+      "location": "India",
+      "highlights": [
+        "Executed daily data processing, verification, and database quality assurance for client accounts.",
+        "Automated repetitive data validation routines to improve throughput and eliminate reporting errors."
+      ]
+    }
+  ],
+  "certifications": [
+    "Microsoft Certified: Azure AI Fundamentals (AI-900)",
+    "SQL (Simplilearn)",
+    "Google Analytics Certification (Coursera)"
+  ],
+  "education": [
+    {
+      "degree": "Master of Applied Business (Business Analytics)",
+      "institution": "Unitec Institute of Technology, Auckland, NZ",
+      "period": "2024 - 2025",
+      "notes": "Completed BSNS9000 Industry Research Project (Thesis) on Fuel Prices & EV Demand in NZ."
+    },
+    {
+      "degree": "Bachelor of Technology (Automobile Engineering)",
+      "institution": "Rajasthan Technical University",
+      "period": "2015 - 2019",
+      "notes": "Strong engineering foundation in quantitative analysis, mechanics, and process systems."
+    }
+  ],
+  "contact": {
+    "email": "pprateek26@gmail.com",
+    "phone": "+64 022 562 0449",
+    "linkedin": "https://linkedin.com/in/pprateek26",
+    "github": "https://github.com/prateek02061997",
+    "resume_pdf": "projects/Prateek_Parihar_CV_Generic.pdf"
+  },
+  "assistant_rules": {
+    "name": "Prateek AI Assistant",
+    "model_persona": "You are Prateek AI Assistant — an intelligent, warm, professional executive AI representative for Prateek Parihar.",
+    "tone": "Fluent, professional, concise, structured, recruiter-focused.",
+    "grounding": "Answer ONLY using the provided portfolio data. Do not invent or assume details outside of this data.",
+    "off_topic_response": "I am Prateek's AI Assistant, specially trained on his professional background, analytics projects, and skills. I can answer questions about Prateek's data analyst experience, Master's thesis, AI automation projects, skills, or contact info. What would you like to know about Prateek?"
+  }
+}

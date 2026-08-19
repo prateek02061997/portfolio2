@@ -1,0 +1,55 @@
+{
+  "name": "Prateek Parihar",
+  "contact_line": [
+    "Auckland, NZ",
+    "+64 022 562 0449",
+    "pprateek26@gmail.com"
+  ],
+  "links": [
+    {"text": "linkedin.com/in/pprateek26", "url": "https://linkedin.com/in/pprateek26"},
+    {"text": "Portfolio", "url": "https://prateek02061997.github.io/Prateek-Portfolio"},
+    {"text": "KiwiBudgetTours.com", "url": "https://kiwibudgettours.com"}
+  ],
+  "tagline": "NZ Open Work Visa valid to Feb 2029",
+  "summary": "Detail-focused Insights Analyst experienced in using SQL and Power BI to access, interrogate, and summarise data, identify trends relating to customers and products, and translate analytical findings into actionable business insights.",
+  "skills": [
+    "Data and Analytics: SQL, Power BI, Advanced Excel, Power Query, DAX, Python, Trend Analysis, Root Cause Analysis",
+    "Insights and Reporting: KPI Reporting, Dashboarding, Google Analytics (GA4), Tableau",
+    "Business Partnering: Written and Verbal Communication, Stakeholder Collaboration, Managing Competing Priorities"
+  ],
+  "projects": [
+    {
+      "title": "Kiwi Budget Tours, Founder and Insights Lead",
+      "link_text": "kiwibudgettours.com",
+      "link_url": "https://kiwibudgettours.com",
+      "bullets": [
+        "Built and deployed an AI-driven booking platform, using customer journey analytics to shape product decisions.",
+        "Applied UAT and structured testing to validate changes before release."
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Data Logician and Field Services Specialist, AA New Zealand",
+      "dates": "Apr 2026 to Present",
+      "bullets": [
+        "Analyse operational telemetry and performance data to identify root causes behind service issues.",
+        "Maintain high-quality automated data records to ensure reporting accuracy and compliance."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Master of Applied Business, Business Analytics, Unitec Institute of Technology, Auckland",
+      "dates": "2024 to 2025",
+      "bullets": [
+        "Coursework focused on predictive modelling, business intelligence, and digital transformation."
+      ]
+    }
+  ],
+  "certifications": "Agile Business Analysis | Generative AI-Powered Strategic Business Analysis | Power BI + Claude: AI-Powered Modeling with the MCP Connector",
+  "additional": [
+    "Security: contracted across major concerts and sporting events, managing safety and access control.",
+    "Warehouse, Retail and Hospitality: traffic control, hotel operations, retail, and hospitality roles since 2024."
+  ]
+}

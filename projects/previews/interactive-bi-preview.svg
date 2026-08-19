@@ -1,0 +1,33 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101826"/>
+      <stop offset="1" stop-color="#1A2940"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="18" fill="url(#bg5)"/>
+  <rect x="60" y="56" width="1160" height="88" rx="14" fill="#1E314C" stroke="#355C8C"/>
+  <text x="92" y="111" fill="#E4EEFF" font-family="Segoe UI, Arial" font-size="30" font-weight="700">Interactive Power BI Dashboard</text>
+  <rect x="80" y="190" width="1120" height="460" rx="14" fill="#17283E" stroke="#325880"/>
+  <rect x="110" y="220" width="240" height="120" rx="12" fill="#223A5B" stroke="#3A6DA1"/>
+  <text x="140" y="268" fill="#A8C9F4" font-family="Segoe UI, Arial" font-size="20">Reporting Time</text>
+  <text x="140" y="315" fill="#F2F7FF" font-family="Segoe UI, Arial" font-size="42" font-weight="700">-70%</text>
+  <rect x="370" y="220" width="240" height="120" rx="12" fill="#223A5B" stroke="#3A6DA1"/>
+  <text x="400" y="268" fill="#A8C9F4" font-family="Segoe UI, Arial" font-size="20">Active Users</text>
+  <text x="420" y="315" fill="#F2F7FF" font-family="Segoe UI, Arial" font-size="42" font-weight="700">128</text>
+  <rect x="630" y="220" width="240" height="120" rx="12" fill="#223A5B" stroke="#3A6DA1"/>
+  <text x="660" y="268" fill="#A8C9F4" font-family="Segoe UI, Arial" font-size="20">Refresh SLA</text>
+  <text x="680" y="315" fill="#F2F7FF" font-family="Segoe UI, Arial" font-size="42" font-weight="700">99%</text>
+  <rect x="890" y="220" width="280" height="120" rx="12" fill="#223A5B" stroke="#3A6DA1"/>
+  <text x="920" y="268" fill="#A8C9F4" font-family="Segoe UI, Arial" font-size="20">Decision Cycle</text>
+  <text x="938" y="315" fill="#F2F7FF" font-family="Segoe UI, Arial" font-size="42" font-weight="700">-45%</text>
+  <rect x="110" y="370" width="640" height="250" rx="12" fill="#203551" stroke="#3A6DA1"/>
+  <polyline points="140,560 220,520 300,540 380,500 460,470 540,430 620,400 700,390"
+            fill="none" stroke="#7CF4FF" stroke-width="8" stroke-linecap="round"/>
+  <rect x="780" y="370" width="390" height="250" rx="12" fill="#203551" stroke="#3A6DA1"/>
+  <rect x="820" y="540" width="50" height="50" rx="8" fill="#4F9DFF"/>
+  <rect x="890" y="500" width="50" height="90" rx="8" fill="#7CF4FF"/>
+  <rect x="960" y="460" width="50" height="130" rx="8" fill="#5E9FF3"/>
+  <rect x="1030" y="430" width="50" height="160" rx="8" fill="#8CC1FF"/>
+  <rect x="1100" y="400" width="50" height="190" rx="8" fill="#A6D5FF"/>
+</svg>

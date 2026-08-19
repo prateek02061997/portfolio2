@@ -1,0 +1,30 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#121A2E"/>
+    </linearGradient>
+    <linearGradient id="line1" x1="188" y1="520" x2="1050" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F9DFF"/>
+      <stop offset="1" stop-color="#7CF4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="18" fill="url(#bg1)"/>
+  <rect x="60" y="60" width="1160" height="88" rx="14" fill="#1A243B" stroke="#2B3C5F"/>
+  <text x="92" y="113" fill="#DCE8FF" font-family="Segoe UI, Arial" font-size="30" font-weight="700">EV Adoption vs Fuel Price (NZ)</text>
+  <rect x="80" y="190" width="820" height="460" rx="14" fill="#141E34" stroke="#2A3B5F"/>
+  <line x1="140" y1="590" x2="840" y2="590" stroke="#2F4369"/>
+  <line x1="140" y1="250" x2="140" y2="590" stroke="#2F4369"/>
+  <polyline points="170,540 240,510 310,500 380,470 450,430 520,420 590,380 660,360 730,320 800,290"
+            fill="none" stroke="url(#line1)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="800" cy="290" r="10" fill="#7CF4FF"/>
+  <rect x="930" y="190" width="270" height="132" rx="12" fill="#141E34" stroke="#2A3B5F"/>
+  <text x="955" y="240" fill="#8FB3FF" font-family="Segoe UI, Arial" font-size="22">Elasticity</text>
+  <text x="955" y="286" fill="#EAF2FF" font-family="Segoe UI, Arial" font-size="42" font-weight="700">+0.72</text>
+  <rect x="930" y="340" width="270" height="132" rx="12" fill="#141E34" stroke="#2A3B5F"/>
+  <text x="955" y="390" fill="#8FB3FF" font-family="Segoe UI, Arial" font-size="22">Policy Effect</text>
+  <text x="955" y="436" fill="#EAF2FF" font-family="Segoe UI, Arial" font-size="42" font-weight="700">-18%</text>
+  <rect x="930" y="490" width="270" height="160" rx="12" fill="#141E34" stroke="#2A3B5F"/>
+  <text x="955" y="538" fill="#8FB3FF" font-family="Segoe UI, Arial" font-size="22">Survey</text>
+  <text x="955" y="584" fill="#EAF2FF" font-family="Segoe UI, Arial" font-size="38" font-weight="700">N=103</text>
+</svg>
