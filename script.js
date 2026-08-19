@@ -328,32 +328,43 @@ function buildLocalReply(message, data) {
 async function askAssistant(message) {
   const payloadHistory = chatHistory.slice(-12);
 
+  // Try relative endpoint first, then fall back to Render live backend URL
+  const primaryEndpoint = "/api/chat";
+  const renderEndpoint = "https://portfolio2-lthl.onrender.com/api/chat";
+
+  let response = null;
   try {
-    const response = await fetch("/api/chat", {
+    response = await fetch(primaryEndpoint, {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        message,
-        history: payloadHistory,
-      }),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message, history: payloadHistory }),
     });
 
     if (!response.ok) {
-      throw new Error("API request failed");
+      throw new Error("Primary API endpoint failed");
     }
-
-    const data = await response.json();
-    if (!data.reply) {
-      throw new Error("Invalid assistant response");
-    }
-
-    return data.reply;
   } catch {
-    const localData = await loadPortfolioKnowledge();
-    return buildLocalReply(message, localData);
+    // If running on static host like GitHub Pages, fetch from Render backend
+    try {
+      response = await fetch(renderEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message, history: payloadHistory }),
+      });
+    } catch {
+      // Fall through to local fallback
+    }
   }
+
+  if (response && response.ok) {
+    const data = await response.json();
+    if (data.reply) {
+      return data.reply;
+    }
+  }
+
+  const localData = await loadPortfolioKnowledge();
+  return buildLocalReply(message, localData);
 }
 
 async function processUserMessage(message) {
