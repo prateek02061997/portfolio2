@@ -237,6 +237,42 @@ function buildLocalReply(message, data) {
   const education = data.education || [];
   const experience = data.professional_experience || [];
 
+  // Behavior / Work Style / Personality
+  if (text.includes("behav") || text.includes("style") || text.includes("personality") || text.includes("attitude") || text.includes("approach") || text.includes("culture")) {
+    return [
+      "**Prateek's Professional Approach & Work Style:**",
+      "- **Commercially Minded**: Focused on connecting analytics directly to business metrics, cost savings, and operational impact.",
+      "- **Collaborative Partner**: Strong stakeholder management skills, translating complex data findings into actionable insights for non-technical leadership.",
+      "- **Automation-First Mindset**: Pragmatic use of AI (Gemini, Claude, Copilot) to reduce manual reporting overhead and improve decision speed.",
+      "- **Problem-Solving & Rigor**: Blends quantitative rigor (econometrics, SQL, time-series forecasting) with practical operational diagnostics.",
+    ].join("\n");
+  }
+
+  // Contact / Phone / Email / Socials
+  if (text.includes("contact") || text.includes("email") || text.includes("phone") || text.includes("number") || text.includes("linkedin") || text.includes("github") || text.includes("reach") || text.includes("call") || text.includes("mail")) {
+    return [
+      "Here is how you can connect with Prateek:",
+      `- **Email**: [${contact.email || "pprateek26@gmail.com"}](mailto:${contact.email || "pprateek26@gmail.com"})`,
+      `- **Phone**: ${contact.phone || "+64 022 562 0449"}`,
+      `- **LinkedIn**: [linkedin.com/in/pprateek26](${contact.linkedin || "https://linkedin.com/in/pprateek26"})`,
+      `- **GitHub**: [github.com/prateek02061997](${contact.github || "https://github.com/prateek02061997"})`,
+      `- **Resume PDF**: [Download CV](${contact.resume_pdf || "projects/Prateek_Parihar_CV_Generic.pdf"})`,
+    ].join("\n");
+  }
+
+  // Experience / Work / Jobs (with typo tolerance for 'experinces')
+  if (text.includes("experi") || text.includes("expern") || text.includes("experin") || text.includes("work") || text.includes("job") || text.includes("career") || text.includes("history") || text.includes("role") || text.includes("background") || text.includes("aa") || text.includes("teleperformance") || text.includes("upstox") || text.includes("wipro")) {
+    const lines = experience.map(
+      (item) => `**${item.role}** at **${item.company}** (${item.period})`
+    );
+    return [
+      "**Professional Experience Summary:**",
+      toBulletList(lines),
+      "\nAsk me about specific metrics or responsibilities for any of these roles!",
+    ].join("\n");
+  }
+
+  // Thesis / EV / Fuel
   if (text.includes("thesis") || text.includes("ev") || text.includes("fuel") || text.includes("master")) {
     const thesis = projects.find((p) => p.id === "ev-fuel-price-thesis") || {};
     return [
@@ -251,7 +287,8 @@ function buildLocalReply(message, data) {
     ].join("\n");
   }
 
-  if (text.includes("about") || text.includes("summary") || text.includes("who is") || text.includes("profile")) {
+  // About / Profile / Summary
+  if (text.includes("about") || text.includes("summary") || text.includes("who") || text.includes("profile") || text.includes("overview")) {
     return [
       `**${profile.name || "Prateek Parihar"}** is a **${profile.title || "Data Analyst"}** based in **${profile.location || "Auckland, NZ"}**.`,
       "",
@@ -264,43 +301,24 @@ function buildLocalReply(message, data) {
     ].join("\n");
   }
 
-  if (text.includes("contact") || text.includes("email") || text.includes("linkedin") || text.includes("github") || text.includes("reach")) {
-    return [
-      "Here is how you can connect with Prateek:",
-      `- **Email**: [${contact.email || "pprateek26@gmail.com"}](mailto:${contact.email || "pprateek26@gmail.com"})`,
-      `- **Phone**: ${contact.phone || "+64 022 562 0449"}`,
-      `- **LinkedIn**: [linkedin.com/in/pprateek26](${contact.linkedin || "https://linkedin.com/in/pprateek26"})`,
-      `- **GitHub**: [github.com/prateek02061997](${contact.github || "https://github.com/prateek02061997"})`,
-      `- **Resume PDF**: [Download CV](${contact.resume_pdf || "projects/Prateek_Parihar_CV_Generic.pdf"})`,
-    ].join("\n");
-  }
-
-  if (text.includes("certification") || text.includes("certificate")) {
+  // Certifications
+  if (text.includes("certification") || text.includes("certificate") || text.includes("certif")) {
     return [
       "**Prateek's Official Certifications:**",
       toBulletList(certifications),
     ].join("\n");
   }
 
-  if (text.includes("education") || text.includes("degree") || text.includes("unitec")) {
+  // Education
+  if (text.includes("education") || text.includes("degree") || text.includes("unitec") || text.includes("university")) {
     const eduList = education.map(
       (e) => `**${e.degree}** - ${e.institution} (${e.period})`
     );
     return ["**Academic Background:**", toBulletList(eduList)].join("\n");
   }
 
-  if (text.includes("experience") || text.includes("work") || text.includes("job") || text.includes("aa") || text.includes("teleperformance")) {
-    const lines = experience.map(
-      (item) => `**${item.role}** at **${item.company}** (${item.period})`
-    );
-    return [
-      "**Professional Experience Summary:**",
-      toBulletList(lines),
-      "\nAsk me about specific metrics or responsibilities for any of these roles!",
-    ].join("\n");
-  }
-
-  if (text.includes("skill") || text.includes("technology") || text.includes("tools") || text.includes("power bi") || text.includes("sql")) {
+  // Skills & Tools
+  if (text.includes("skill") || text.includes("technology") || text.includes("tool") || text.includes("power bi") || text.includes("sql") || text.includes("python") || text.includes("dax") || text.includes("tableau") || text.includes("excel")) {
     const groups = data.skills || {};
     const lines = Object.keys(groups).map(
       (key) => `**${key.replaceAll("_", " ").toUpperCase()}**: ${groups[key].join(", ")}`
@@ -311,7 +329,8 @@ function buildLocalReply(message, data) {
     ].join("\n");
   }
 
-  if (text.includes("project") || text.includes("ai") || text.includes("showcase") || text.includes("portfolio")) {
+  // Projects / Portfolio / Case studies
+  if (text.includes("project") || text.includes("ai") || text.includes("showcase") || text.includes("portfolio") || text.includes("build") || text.includes("case")) {
     const lines = projects.map(
       (item) => `**${item.name}** (${item.status}) - ${item.summary || item.description}`
     );
