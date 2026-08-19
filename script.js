@@ -272,11 +272,26 @@ function buildLocalReply(message, data) {
     ].join("\n");
   }
 
+  // Projects & Project Links (Check before generic 'about')
+  if (text.includes("project") || text.includes("link") || text.includes("portfolio") || text.includes("showcase") || text.includes("case")) {
+    const projectLines = projects.map((item) => {
+      const linkPath = item.links && item.links.details ? item.links.details : "#";
+      return `- **[${item.name}](${linkPath})** (${item.status || "Featured"}) - ${item.summary || item.description}`;
+    });
+
+    return [
+      "**Prateek's Featured Analytics & AI Projects (Click links to view case studies):**",
+      projectLines.join("\n"),
+      "\nClick any project title above to read the full case study and technical architecture!",
+    ].join("\n");
+  }
+
   // Thesis / EV / Fuel
   if (text.includes("thesis") || text.includes("ev") || text.includes("fuel") || text.includes("master")) {
     const thesis = projects.find((p) => p.id === "ev-fuel-price-thesis") || {};
+    const thesisLink = thesis.links && thesis.links.details ? thesis.links.details : "projects/ev-fuel-price-thesis/index.html";
     return [
-      `### ${thesis.name || "Master's Thesis: Fuel Prices & EV Demand in NZ"}`,
+      `### [${thesis.name || "Master's Thesis: Fuel Prices & EV Demand in NZ"}](${thesisLink})`,
       `${thesis.summary || "BSNS9000 Industry Research Project examining EV adoption drivers in New Zealand."}`,
       "",
       "**Key Highlights:**",
@@ -284,11 +299,12 @@ function buildLocalReply(message, data) {
       "- **103 Primary Consumer Survey Responses** & 3-month real-world 2011 Nissan Leaf trial.",
       "- **Econometric Modeling**: ARIMA forecasting, Granger causality, and elasticity analysis.",
       "- **7-Step Policy Framework**: Proposed revenue-neutral plan to overcome adoption friction.",
+      `\n👉 [Read Full Thesis Case Study](${thesisLink})`,
     ].join("\n");
   }
 
-  // About / Profile / Summary
-  if (text.includes("about") || text.includes("summary") || text.includes("who") || text.includes("profile") || text.includes("overview")) {
+  // About / Profile / Summary (only if not specifically asking about projects/skills/experience)
+  if ((text.includes("about") || text.includes("summary") || text.includes("who") || text.includes("profile") || text.includes("overview")) && !text.includes("project") && !text.includes("skill") && !text.includes("experience")) {
     return [
       `**${profile.name || "Prateek Parihar"}** is a **${profile.title || "Data Analyst"}** based in **${profile.location || "Auckland, NZ"}**.`,
       "",
