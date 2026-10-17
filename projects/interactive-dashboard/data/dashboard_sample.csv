@@ -1,0 +1,7 @@
+month,region,product,revenue,cost,profit,orders
+2024-01,North,Standard,120000,82000,38000,420
+2024-01,South,Premium,98000,62000,36000,310
+2024-02,North,Standard,130000,86000,44000,450
+2024-02,South,Premium,102000,65000,37000,330
+2024-03,North,Standard,128000,85000,43000,440
+2024-03,South,Premium,105000,67000,38000,340

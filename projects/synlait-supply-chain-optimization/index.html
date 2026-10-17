@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Synlait Milk Supply Chain Optimisation | Prateek Parihar</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <style>
+      .project-hero {
+        background: linear-gradient(135deg, rgba(79, 157, 255, 0.15), rgba(124, 244, 255, 0.1));
+        border-bottom: 1px solid var(--border);
+        padding: 3rem 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .project-hero h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+        margin-bottom: 0.5rem;
+        background: linear-gradient(135deg, var(--ink) 0%, var(--accent-bright) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .project-meta {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin-top: 1.5rem;
+      }
+
+      .meta-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .meta-label {
+        color: var(--muted);
+        font-size: 0.85rem;
+        font-weight: 500;
+      }
+
+      .meta-value {
+        color: var(--accent-bright);
+        font-weight: 600;
+      }
+
+      .project-content {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .project-section {
+        margin-bottom: 3rem;
+      }
+
+      .project-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--ink);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .project-section p {
+        color: var(--muted);
+        line-height: 1.8;
+        margin-bottom: 1rem;
+      }
+
+      .project-section ul {
+        list-style: none;
+        margin-bottom: 1rem;
+      }
+
+      .project-section li {
+        color: var(--muted);
+        padding: 0.5rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+      }
+
+      .project-section li::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: var(--accent);
+      }
+
+      .slides-container {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 2rem;
+        margin: 2rem 0;
+      }
+
+      .slide-grid {
+        display: none;
+      }
+
+      .slide-viewer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .slide-image {
+        max-width: 100%;
+        width: 100%;
+        max-height: 70vh;
+        object-fit: contain;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: rgba(0, 0, 0, 0.3);
+      }
+
+      .slide-controls {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .slide-btn {
+        background: linear-gradient(135deg, var(--accent) 0%, var(--accent-bright) 100%);
+        color: #050608;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        font-family: "Sora", sans-serif;
+      }
+
+      .slide-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(79, 157, 255, 0.3);
+      }
+
+      .slide-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .slide-counter {
+        color: var(--accent-bright);
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 600;
+        min-width: 100px;
+        text-align: center;
+      }
+
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--accent);
+        text-decoration: none;
+        margin-bottom: 2rem;
+        font-weight: 500;
+        transition: color 0.2s;
+      }
+
+      .back-link:hover {
+        color: var(--accent-bright);
+      }
+    </style>
+  </head>
+  <body class="page">
+    <header class="page-header">
+      <div class="inner">
+        <a href="../../index.html" class="brand">
+          <span class="brand-mark">PP</span>
+          <div>
+            <strong>Prateek Parihar</strong>
+          </div>
+        </a>
+        <nav>
+          <a href="../../index.html#home">Home</a>
+          <a href="../../index.html#about">About</a>
+          <a href="../../index.html#skills">Skills</a>
+          <a class="active" href="../../index.html#projects">Projects</a>
+          <a href="../../index.html#certifications">Certifications</a>
+          <a href="../../index.html#resume">Resume</a>
+          <a href="../../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <a href="../../projects.html" class="back-link">← Back to Projects</a>
+
+      <div class="project-hero">
+        <h1>Synlait Milk Supply Chain Optimisation</h1>
+        <p>Supply chain and operations analysis focused on identifying production inefficiencies, prioritising improvement opportunities, and linking operational performance with sustainability outcomes.</p>
+        <div class="project-meta">
+          <div class="meta-item">
+            <span class="meta-label">Scope:</span>
+            <span class="meta-value">15-slide operations strategy case</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Presentation:</span>
+            <span class="meta-value">15 slides</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Focus:</span>
+            <span class="meta-value">Operations • Design Thinking • Sustainability</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <div class="project-section">
+          <h2>Project Overview</h2>
+          <p>
+            This project assessed how Synlait could improve performance across production and supply chain activity while staying aligned with sustainability goals. The analysis combined process mapping, stakeholder input, and prioritisation of operational improvement opportunities.
+          </p>
+        </div>
+
+        <div class="project-section">
+          <h2>Objectives</h2>
+          <ul>
+            <li>Map end-to-end supply chain processes</li>
+            <li>Identify bottlenecks and waste points</li>
+            <li>Develop actionable recommendations for efficiency improvements</li>
+            <li>Align solutions with sustainability goals</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Approach</h2>
+          <ul>
+            <li><strong>Design Thinking Workshops:</strong> Facilitated collaborative sessions with cross-functional stakeholders</li>
+            <li><strong>Process Mapping:</strong> Documented current-state workflows to identify pain points</li>
+            <li><strong>Data Analysis:</strong> Analyzed operational metrics including yield, downtime, and waste</li>
+            <li><strong>Impact Prioritization:</strong> Ranked improvements by feasibility and business impact</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Key Focus Areas</h2>
+          <ul>
+            <li>Yield losses by production stage</li>
+            <li>Equipment downtime frequency and duration</li>
+            <li>Cold-chain compliance tracking</li>
+            <li>Waste disposal and reuse opportunities</li>
+            <li>Sustainability alignment</li>
+          </ul>
+        </div>
+
+        <div class="slides-container">
+          <h2 style="margin-top: 0;">Full Presentation (15 Slides)</h2>
+          <p style="color: var(--muted); margin: 0 0 1.5rem 0;">Complete analysis including process mapping, stakeholder insights, and strategic recommendations.</p>
+          
+          <div class="slide-viewer">
+            <img id="slideImage" src="images/Slide1.JPG" alt="Presentation Slide" class="slide-image">
+            <div class="slide-controls">
+              <button id="prevBtn" class="slide-btn" onclick="previousSlide()">← Previous</button>
+              <span class="slide-counter"><span id="currentSlide">1</span> / 15</span>
+              <button id="nextBtn" class="slide-btn" onclick="nextSlide()">Next →</button>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          let currentSlide = 1;
+          const totalSlides = 15;
+
+          function updateSlide() {
+            document.getElementById('slideImage').src = `images/Slide${currentSlide}.JPG`;
+            document.getElementById('currentSlide').textContent = currentSlide;
+            document.getElementById('prevBtn').disabled = currentSlide === 1;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides;
+          }
+
+          function nextSlide() {
+            if (currentSlide < totalSlides) {
+              currentSlide++;
+              updateSlide();
+            }
+          }
+
+          function previousSlide() {
+            if (currentSlide > 1) {
+              currentSlide--;
+              updateSlide();
+            }
+          }
+
+          // Keyboard navigation
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            if (e.key === 'ArrowLeft') previousSlide();
+          });
+
+          updateSlide();
+        </script>
+
+        <div class="project-section">
+          <h2>Recommendations</h2>
+          <ul>
+            <li>Implement real-time KPI dashboards for production monitoring</li>
+            <li>Establish automated alerts for cold-chain deviations</li>
+            <li>Create feedback loops between production and planning teams</li>
+            <li>Develop waste tracking system with sustainability metrics</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>What This Demonstrates</h2>
+          <p>
+            This project demonstrates structured problem analysis, workshop-based discovery, operational prioritisation, and the ability to connect process improvement work with measurable sustainability objectives.
+          </p>
+        </div>
+
+        <div class="project-section">
+          <h2>Tools & Methods</h2>
+          <ul>
+            <li>Design Thinking Framework</li>
+            <li>Process Flow Mapping</li>
+            <li>Stakeholder Analysis</li>
+            <li>Data Visualization</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">© <span id="year"></span> Prateek Parihar</footer>
+    <script src="../../script.js?v=20260801"></script>
+  </body>
+</html>

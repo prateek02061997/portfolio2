@@ -1,0 +1,13 @@
+delivery_id,route,stage,scheduled_time,actual_time,delay_minutes
+DL-001,North-A,Warehouse,08:00,08:12,12
+DL-001,North-A,Dispatch,08:30,08:48,18
+DL-001,North-A,In-Transit,09:00,09:15,15
+DL-001,North-A,Delivery,10:00,10:18,18
+DL-002,West-B,Warehouse,07:45,07:50,5
+DL-002,West-B,Dispatch,08:10,08:25,15
+DL-002,West-B,In-Transit,08:40,08:52,12
+DL-002,West-B,Delivery,09:30,09:38,8
+DL-003,Central-C,Warehouse,09:00,09:05,5
+DL-003,Central-C,Dispatch,09:20,09:35,15
+DL-003,Central-C,In-Transit,10:00,10:14,14
+DL-003,Central-C,Delivery,11:10,11:28,18

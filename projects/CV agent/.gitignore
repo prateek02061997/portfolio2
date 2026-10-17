@@ -1,0 +1,15 @@
+# Environment / secrets — never commit these
+.env
+1.env
+CV key.env
+
+# Generated PDFs
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Dev folder
+gemeni continue dev/

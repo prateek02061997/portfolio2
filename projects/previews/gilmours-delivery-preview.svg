@@ -1,0 +1,33 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12101F"/>
+      <stop offset="1" stop-color="#1A1730"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="18" fill="url(#bg3)"/>
+  <rect x="60" y="56" width="1160" height="88" rx="14" fill="#201C36" stroke="#3A3360"/>
+  <text x="92" y="111" fill="#ECE7FF" font-family="Segoe UI, Arial" font-size="30" font-weight="700">Delivery Delay Analysis - Gilmours</text>
+  <rect x="80" y="190" width="540" height="460" rx="14" fill="#1A1730" stroke="#3A3360"/>
+  <text x="112" y="236" fill="#B6ADDF" font-family="Segoe UI, Arial" font-size="22">Delay by Stage (mins)</text>
+  <rect x="120" y="270" width="220" height="48" rx="8" fill="#4F9DFF"/>
+  <rect x="120" y="340" width="310" height="48" rx="8" fill="#7CF4FF"/>
+  <rect x="120" y="410" width="380" height="48" rx="8" fill="#8CA3FF"/>
+  <rect x="120" y="480" width="280" height="48" rx="8" fill="#5A77E8"/>
+  <text x="360" y="303" fill="#EAF0FF" font-family="Segoe UI, Arial" font-size="20">Warehouse</text>
+  <text x="450" y="373" fill="#EAF0FF" font-family="Segoe UI, Arial" font-size="20">Dispatch</text>
+  <text x="520" y="443" fill="#EAF0FF" font-family="Segoe UI, Arial" font-size="20">In Transit</text>
+  <text x="420" y="513" fill="#EAF0FF" font-family="Segoe UI, Arial" font-size="20">Delivery</text>
+  <rect x="650" y="190" width="550" height="220" rx="14" fill="#1A1730" stroke="#3A3360"/>
+  <text x="682" y="236" fill="#B6ADDF" font-family="Segoe UI, Arial" font-size="22">On-Time Performance</text>
+  <polyline points="690,350 770,320 850,330 930,280 1010,290 1090,250" fill="none" stroke="#7CF4FF" stroke-width="8"/>
+  <rect x="650" y="430" width="170" height="220" rx="12" fill="#1A1730" stroke="#3A3360"/>
+  <text x="675" y="478" fill="#B6ADDF" font-family="Segoe UI, Arial" font-size="18">Delay ↓</text>
+  <text x="675" y="540" fill="#F4F2FF" font-family="Segoe UI, Arial" font-size="46" font-weight="700">20%</text>
+  <rect x="840" y="430" width="170" height="220" rx="12" fill="#1A1730" stroke="#3A3360"/>
+  <text x="865" y="478" fill="#B6ADDF" font-family="Segoe UI, Arial" font-size="18">Routes</text>
+  <text x="882" y="540" fill="#F4F2FF" font-family="Segoe UI, Arial" font-size="46" font-weight="700">34</text>
+  <rect x="1030" y="430" width="170" height="220" rx="12" fill="#1A1730" stroke="#3A3360"/>
+  <text x="1055" y="478" fill="#B6ADDF" font-family="Segoe UI, Arial" font-size="18">SLA</text>
+  <text x="1065" y="540" fill="#F4F2FF" font-family="Segoe UI, Arial" font-size="46" font-weight="700">92%</text>
+</svg>

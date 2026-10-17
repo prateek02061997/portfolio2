@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gilmours Workflow Analysis & Process Redesign | Prateek Parihar</title>
+    <link rel="stylesheet" href="../../styles.css" />
+    <style>
+      .project-hero {
+        background: linear-gradient(135deg, rgba(79, 157, 255, 0.15), rgba(124, 244, 255, 0.1));
+        border-bottom: 1px solid var(--border);
+        padding: 3rem 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .project-hero h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+        margin-bottom: 0.5rem;
+        background: linear-gradient(135deg, var(--ink) 0%, var(--accent-bright) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .project-meta {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin-top: 1.5rem;
+      }
+
+      .meta-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .meta-label {
+        color: var(--muted);
+        font-size: 0.85rem;
+        font-weight: 500;
+      }
+
+      .meta-value {
+        color: var(--accent-bright);
+        font-weight: 600;
+      }
+
+      .project-content {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .project-section {
+        margin-bottom: 3rem;
+      }
+
+      .project-section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--ink);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .project-section p {
+        color: var(--muted);
+        line-height: 1.8;
+        margin-bottom: 1rem;
+      }
+
+      .project-section ul {
+        list-style: none;
+        margin-bottom: 1rem;
+      }
+
+      .project-section li {
+        color: var(--muted);
+        padding: 0.5rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+      }
+
+      .project-section li::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: var(--accent);
+      }
+
+      .slides-container {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 2rem;
+        margin: 2rem 0;
+      }
+
+      .slide-grid {
+        display: none;
+      }
+
+      .slide-viewer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .slide-image {
+        max-width: 100%;
+        width: 100%;
+        max-height: 70vh;
+        object-fit: contain;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: rgba(0, 0, 0, 0.3);
+      }
+
+      .slide-controls {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .slide-btn {
+        background: linear-gradient(135deg, var(--accent) 0%, var(--accent-bright) 100%);
+        color: #050608;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        font-family: "Sora", sans-serif;
+      }
+
+      .slide-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(79, 157, 255, 0.3);
+      }
+
+      .slide-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .slide-counter {
+        color: var(--accent-bright);
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 600;
+        min-width: 100px;
+        text-align: center;
+      }
+
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--accent);
+        text-decoration: none;
+        margin-bottom: 2rem;
+        font-weight: 500;
+        transition: color 0.2s;
+      }
+
+      .back-link:hover {
+        color: var(--accent-bright);
+      }
+    </style>
+  </head>
+  <body class="page">
+    <header class="page-header">
+      <div class="inner">
+        <a href="../../index.html" class="brand">
+          <span class="brand-mark">PP</span>
+          <div>
+            <strong>Prateek Parihar</strong>
+          </div>
+        </a>
+        <nav>
+          <a href="../../index.html#home">Home</a>
+          <a href="../../index.html#about">About</a>
+          <a href="../../index.html#skills">Skills</a>
+          <a class="active" href="../../index.html#projects">Projects</a>
+          <a href="../../index.html#certifications">Certifications</a>
+          <a href="../../index.html#resume">Resume</a>
+          <a href="../../index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <a href="../../projects.html" class="back-link">← Back to Projects</a>
+
+      <div class="project-hero">
+        <h1>Gilmours Workflow Analysis & Process Redesign</h1>
+        <p>Operations analysis project focused on the end-to-end delivery workflow, identifying service bottlenecks and producing a structured redesign plan to improve reliability and execution speed.</p>
+        <div class="project-meta">
+          <div class="meta-item">
+            <span class="meta-label">Opportunity:</span>
+            <span class="meta-value">20% delay-reduction potential</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Presentation:</span>
+            <span class="meta-value">34 slides</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Focus:</span>
+            <span class="meta-value">Operations • Process redesign • KPI analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <div class="project-section">
+          <h2>Project Overview</h2>
+          <p>
+            This work examined how delivery execution was being affected by breakdowns across receiving, picking, loading, transit, and final delivery. The goal was to move beyond symptoms and define a clearer operating model supported by measurable KPIs and practical interventions.
+          </p>
+        </div>
+
+        <div class="project-section">
+          <h2>Objectives</h2>
+          <ul>
+            <li>Reduce delivery delays by minimum 20%</li>
+            <li>Map complete end-to-end delivery workflow</li>
+            <li>Quantify inefficiencies by stage and route</li>
+            <li>Propose data-driven process improvements</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Methodology</h2>
+          <ul>
+            <li><strong>Stakeholder Interviews:</strong> Conducted in-depth interviews with drivers, dispatchers, and warehouse staff</li>
+            <li><strong>Workflow Mapping:</strong> Documented current delivery process from order receipt to final delivery</li>
+            <li><strong>Delay Analysis:</strong> Quantified delays by process stage and route grouping</li>
+            <li><strong>Root Cause Analysis:</strong> Identified key bottlenecks and their business impact</li>
+            <li><strong>KPI Development:</strong> Created tracking metrics for ongoing performance monitoring</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Key Metrics Analysed</h2>
+          <ul>
+            <li>On-time delivery rate (baseline vs. target)</li>
+            <li>Average delay minutes by stage (receiving, picking, loading, transit, delivery)</li>
+            <li>Route-level variance and consistency</li>
+            <li>Rework and redelivery frequency</li>
+            <li>Driver utilization and idle time</li>
+          </ul>
+        </div>
+
+        <div class="slides-container">
+          <h2 style="margin-top: 0;">Full Presentation (34 Slides)</h2>
+          <p style="color: var(--muted); margin: 0 0 1.5rem 0;">Complete analysis and recommendations from stakeholder interviews to KPI framework development.</p>
+          
+          <div class="slide-viewer">
+            <img id="slideImage" src="images/Slide1.JPG" alt="Presentation Slide" class="slide-image">
+            <div class="slide-controls">
+              <button id="prevBtn" class="slide-btn" onclick="previousSlide()">← Previous</button>
+              <span class="slide-counter"><span id="currentSlide">1</span> / 34</span>
+              <button id="nextBtn" class="slide-btn" onclick="nextSlide()">Next →</button>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          let currentSlide = 1;
+          const totalSlides = 34;
+
+          function updateSlide() {
+            document.getElementById('slideImage').src = `images/Slide${currentSlide}.JPG`;
+            document.getElementById('currentSlide').textContent = currentSlide;
+            document.getElementById('prevBtn').disabled = currentSlide === 1;
+            document.getElementById('nextBtn').disabled = currentSlide === totalSlides;
+          }
+
+          function nextSlide() {
+            if (currentSlide < totalSlides) {
+              currentSlide++;
+              updateSlide();
+            }
+          }
+
+          function previousSlide() {
+            if (currentSlide > 1) {
+              currentSlide--;
+              updateSlide();
+            }
+          }
+
+          // Keyboard navigation
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            if (e.key === 'ArrowLeft') previousSlide();
+          });
+
+          updateSlide();
+        </script>
+
+        <div class="project-section">
+          <h2>Recommendations</h2>
+          <ul>
+            <li>Implement dynamic route optimization software</li>
+            <li>Establish real-time delivery tracking dashboard</li>
+            <li>Create standard operating procedures for high-delay stages</li>
+            <li>Pilot automated dispatch scheduling for peak periods</li>
+            <li>Build feedback mechanism from drivers to operations team</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Expected Impact</h2>
+          <ul>
+            <li><strong>20% reduction opportunity:</strong> The analysis identified a credible path to reduce average delivery delays through targeted process redesign</li>
+            <li><strong>Improved customer satisfaction</strong> through reliable delivery windows</li>
+            <li><strong>Reduced operational costs</strong> via optimized routing</li>
+            <li><strong>Data-driven decision making</strong> with KPI dashboards</li>
+          </ul>
+        </div>
+
+        <div class="project-section">
+          <h2>Tools & Methods</h2>
+          <ul>
+            <li>Process Mapping & Workflow Analysis</li>
+            <li>Stakeholder Interviews</li>
+            <li>Data Analysis (Excel/Power BI)</li>
+            <li>Root Cause Analysis</li>
+            <li>KPI Framework Development</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">© <span id="year"></span> Prateek Parihar</footer>
+    <script src="../../script.js?v=20260801"></script>
+  </body>
+</html>

@@ -1,0 +1,345 @@
+{
+  "profile": {
+    "name": "Prateek Parihar",
+    "headline": "Business Operations, Systems & Service Test Analyst",
+    "subheadline": "Incident Management | Workflow Automation | Applied AI Solutions",
+    "location": "Auckland, New Zealand",
+    "phone": "+64 022 562 0449",
+    "email": "pprateek26@gmail.com",
+    "linkedin": "https://linkedin.com/in/pprateek26",
+    "github": "https://github.com/prateek02061997",
+    "portfolio": "https://prateek02061997.github.io/portfolio2",
+    "resume_pdf": "projects/Prateek_Parihar_CV_Generic.pdf",
+    "resume_datacom_pdf": "projects/Prateek_Parihar_CV_Datacom.pdf",
+    "summary": "Commercially minded Business Operations, Systems, and Service Test Analyst with 4+ years of cross-functional experience optimizing service operations, workflow integrity, and customer-facing processes. Combines grounded operational problem-solving and ITIL incident triage with practical hands-on capability in applied AI tools, low-code automation, and modern digital workflows to bridge operational friction and turn ideas into action."
+  },
+  "metrics": [
+    {
+      "value": "70%",
+      "label": "Reporting Time Cut",
+      "detail": "Automated weekly LLM-assisted metric pipelines, executive summaries, and anomaly flags."
+    },
+    {
+      "value": "20%",
+      "label": "Dispatch Delay Cut",
+      "detail": "Workflow delay diagnosis, route manifests, and automated digital handoffs at Gilmours."
+    },
+    {
+      "value": "15%",
+      "label": "Stock Waste Reduction",
+      "detail": "Predictive replenishment and dynamic reorder threshold modeling."
+    },
+    {
+      "value": "4+ Yrs",
+      "label": "Cross-Functional Operations Impact",
+      "detail": "Spanning AA roadside telemetry, Datacom job simulations, digital transformation, and Uber Eats."
+    }
+  ],
+  "job_simulation_certifications": [
+    {
+      "title": "Partnering with AI in the Workplace Job Simulation",
+      "issuer": "Datacom (Forage)",
+      "date": "Oct 2026",
+      "bullets": [
+        "Partnered with Generative AI tools (ChatGPT) to research, design, and draft client-ready technical reports, UI feature proposals, and visual storytelling presentations.",
+        "Applied structured prompt engineering to diagnose and resolve website code issues, guiding AI through iterative debugging and functional validation."
+      ]
+    },
+    {
+      "title": "Service Desk Job Simulation",
+      "issuer": "Datacom (Forage)",
+      "date": "Oct 2026",
+      "bullets": [
+        "Practiced IT support and incident management aligned with ITIL processes, categorizing, logging, and escalating service tickets in a managed services environment.",
+        "Diagnosed a complex network outage scenario, assessing impact across client tickets and drafting clear, empathetic escalation updates for affected users."
+      ]
+    }
+  ],
+  "skills": {
+    "service_support": [
+      "Ticket Triage & Categorization",
+      "Incident Management (ITIL)",
+      "First-Contact Resolution (FCR)",
+      "Escalation Workflows",
+      "Hardware/Software Diagnostics",
+      "Network & Outage Troubleshooting",
+      "Alert Monitoring",
+      "SLA Compliance"
+    ],
+    "customer_care": [
+      "Client Support (Chat, Phone & Email)",
+      "Active Listening & Empathy",
+      "Driver & User Technical Troubleshooting",
+      "Login & Portal Diagnostics",
+      "Non-Technical Guidance",
+      "Detailed Case & Resolution Notes"
+    ],
+    "ai_automation": [
+      "Claude & OpenAI APIs",
+      "Google Gemini 3.8 Flash",
+      "LlamaIndex RAG & Vector Indexing",
+      "Model Context Protocol (MCP)",
+      "Autonomous Agents",
+      "Google Antigravity & Copilot CLI",
+      "Prompt Engineering",
+      "n8n Workflow Automation",
+      "Microsoft Power Automate"
+    ],
+    "data_analytics": [
+      "SQL (PostgreSQL, MySQL, Snowflake)",
+      "Power BI (DAX, Power Query, Modeling)",
+      "Python (Pandas, NumPy, Scikit-learn)",
+      "Telemetry Diagnostics & Anomaly Detection",
+      "ETL / ELT Pipelines",
+      "Time-Series Forecasting (ARIMA)"
+    ],
+    "business_delivery": [
+      "Process Mapping",
+      "User Acceptance Testing (UAT)",
+      "Root Cause Analysis (RCA)",
+      "Requirements Gathering",
+      "Agile Environments",
+      "Process Improvement & SOPs"
+    ],
+    "systems_platforms": [
+      "Ticketing & Service Management Systems",
+      "Field Service Applications",
+      "GitHub & CI/CD",
+      "Railway & Render",
+      "Vercel Serverless",
+      "Docker",
+      "24/7 & After-Hours Flexibility"
+    ]
+  },
+  "professional_experience": [
+    {
+      "role": "Business & Field Operations (SDC)",
+      "company": "AA Motoring (AA New Zealand)",
+      "period": "Apr 2026 – Present",
+      "location": "Auckland, NZ",
+      "type": "Operations & Incident Dispatch",
+      "bullets": [
+        "Assist AA members during urgent vehicle breakdown and roadside assistance situations, assessing service needs, communicating status clearly, and coordinating prompt dispatch resolution.",
+        "Utilize the internal Field Service application to enter, update, and maintain member service records, incident logs, battery replacement records, and battery warranty documentation.",
+        "Review field dispatch workflows and service records to verify that warranty data, member notes, and operational logs are accurate, complete, and SLA-compliant."
+      ]
+    },
+    {
+      "role": "Digital Transformation & Project Support",
+      "company": "iTech24",
+      "period": "Dec 2025 – Present",
+      "location": "Auckland, NZ",
+      "type": "Consulting & Testing",
+      "bullets": [
+        "Support digital transition projects for small-to-medium business clients, evaluating existing manual office workflows to identify opportunities for digital adoption and efficiency gains.",
+        "Assist with business requirements gathering, user journey reviews, and functional testing (UAT) across client web applications to ensure solutions meet agreed operational needs.",
+        "Prepare clear process documentation, user guides, and testing notes to assist non-technical client teams during handover and implementation."
+      ]
+    },
+    {
+      "role": "Lead Solutions Architect & Digital Transformation",
+      "company": "Kiwi Budget Tours",
+      "period": "Oct 2025 – Present",
+      "location": "Auckland, NZ",
+      "type": "Platform & AI Architecture",
+      "bullets": [
+        "Built the digital booking platform from scratch, turning manual trip coordination into an automated self-service booking engine.",
+        "Integrated multi-model conversational agents (Claude, Gemini, Grok, OpenAI) to automate traveler inquiries, summarize routes, and execute bookings.",
+        "Executed User Acceptance Testing (UAT) and analyzed user onboarding journeys to identify friction points and improve conversion rates."
+      ]
+    },
+    {
+      "role": "Business Operations Analyst",
+      "company": "Uber",
+      "period": "Jul 2022 – Dec 2023",
+      "location": "Auckland / Remote",
+      "type": "Operations Analytics & Support",
+      "bullets": [
+        "Investigated and managed customer and partner support cases for Uber Eats, diagnosing root issues such as missing orders, dispatch exceptions, and operational disputes.",
+        "Communicated directly via chat with drivers to identify and troubleshoot issues faced during app login, account authentication, navigation errors, and workflow disruptions.",
+        "Reviewed order histories and transactional records to authorize policy-aligned adjustments, maintaining strict SLA turnaround while logging thorough case and resolution notes."
+      ]
+    },
+    {
+      "role": "Product Operations & Process Analyst",
+      "company": "Upstox",
+      "period": "Apr 2021 – Apr 2022",
+      "location": "India",
+      "type": "Fintech Operations & Technical Support",
+      "bullets": [
+        "Supported prospective customers through the Demat account-opening process, explaining regulatory requirements and assisting them through each onboarding stage.",
+        "Troubleshot user login failures, portal errors, and system exceptions during KYC document submission and intermediate account-creation steps to resolve technical bottlenecks.",
+        "Followed up with customers during onboarding to address outstanding verification issues, guide document re-submissions, and ensure successful account completion and activation."
+      ]
+    },
+    {
+      "role": "Data Quality & Operations Associate",
+      "company": "Wipro Limited",
+      "period": "Oct 2019 – Mar 2021",
+      "location": "India",
+      "type": "Data Operations & Service Tickets",
+      "bullets": [
+        "Processed incoming service tickets within a US healthcare insurance workflow, examining policy records, verifying requests, and executing necessary policy modifications and servicing tasks.",
+        "Executed policy alterations including term date adjustments, policyholder updates, and billing changes while accurately calculating and updating required premium amounts.",
+        "Logged detailed operational notes specifying incoming user requests, diagnostic actions taken, and final resolutions to ensure 100% audit compliance and strict SLA adherence."
+      ]
+    }
+  ],
+  "workshops": [
+    {
+      "title": "AWS Auckland Well-Architected User Group: Generative AI & Product Architecture",
+      "host": "AWS Office, PwC Tower Auckland",
+      "focus": "Cloud-deployed AI products with Datacom, token cost optimization, and budget guardrails."
+    },
+    {
+      "title": "AI-Assisted Development: From Idea to Pull Request",
+      "host": "The Auckland iOS Meetup (Mt Eden)",
+      "focus": "Autonomous coding agents (Claude, Copilot, Cursor), context mapping, automated code reviews, and CI testing."
+    },
+    {
+      "title": "n8n Meetup Auckland: Low-Code Automation & Workflow Integration",
+      "host": "Local n8n Community (AWS Office, PwC Tower)",
+      "focus": "Hands-on event-driven webhooks, low-code workflow automation, and enterprise system integrations."
+    },
+    {
+      "title": "Copilot Dev Days: GitHub Copilot CLI & App Workshop",
+      "host": "Aotearoa NZ GitHub User Group (Microsoft Auckland)",
+      "focus": "Autonomous terminal agents, developer workflow automation using Copilot CLI, and agent governance."
+    },
+    {
+      "title": "From Security Firefights to Coding Agents: Copilot CLI & Dynamics 365 Architecture",
+      "host": "Microsoft Auckland",
+      "focus": "Enterprise transformation scenarios, Dataverse integration, Copilot CLI, and role-based security."
+    },
+    {
+      "title": "Building AI Agents with OpenAI in Snowflake & Hands-on Labs",
+      "host": "Snowflake Virtual Hands-on Lab",
+      "focus": "Conversational agents using Snowflake Cortex and OpenAI models for automated document and schema querying."
+    },
+    {
+      "title": "AKL Multi-Model Copilot, Autonomous Agents & Token ROI",
+      "host": "Microsoft Auckland",
+      "focus": "Prompt engineering, multi-model evaluation, autonomous agent workflows, and token governance."
+    }
+  ],
+  "certifications": [
+    "Partnering with AI in the Workplace Job Simulation — Datacom (Forage, Oct 2026)",
+    "Service Desk Job Simulation — Datacom (Forage, Oct 2026)",
+    "Microsoft Certified: AI Developer Associate (Microsoft)",
+    "Microsoft Certified: Azure AI Fundamentals (AI-900)",
+    "Microsoft Azure AI Essentials Professional Certificate (Microsoft & LinkedIn)",
+    "Power BI + Claude: AI-Powered Modeling with MCP Connector (LinkedIn)",
+    "Generative AI-Powered Strategic Business Analysis (LinkedIn & PMI)",
+    "Agile Business Analysis (LinkedIn & PMI)",
+    "Building AI Agents with Snowflake (LinkedIn)",
+    "Intro to Snowflake for Devs, Data Scientists, Data Engineers (LinkedIn)",
+    "Building Generative AI Apps to Talk to Your Data (LinkedIn)"
+  ],
+  "education": [
+    {
+      "degree": "Master of Applied Business (Business Analytics)",
+      "institution": "Unitec Institute of Technology, Auckland, NZ",
+      "period": "2024 – 2025",
+      "highlights": "Coursework in BI, operational analytics, predictive modeling, database design. Conducted applied industry research evaluating New Zealand supply chain distribution networks, transport pricing, and fleet logistics workflows."
+    },
+    {
+      "degree": "Bachelor of Technology (Automobile Engineering)",
+      "institution": "Arya College of Engineering & IT / Rajasthan Technical University",
+      "period": "2015 – 2019",
+      "highlights": "Co-engineered and fabricated an electric solar competition vehicle for ESVC and a competition go-kart. Strong foundation in mechanics, stress analysis, circuit testing, and quantitative problem-solving."
+    }
+  ],
+  "projects": [
+    {
+      "id": "kiwi-budget-tours",
+      "name": "Kiwi Budget Tours — AI Travel Booking Platform",
+      "status": "Production Live",
+      "category": "Platform & Multi-Agent AI",
+      "filter_tag": "ai",
+      "tagline": "End-to-end travel platform with multi-LLM conversational agents.",
+      "problem": "Independent travelers in New Zealand faced fragmented operator pricing, disjointed schedules, and manual booking friction.",
+      "solution": "Built a centralized self-service booking platform with WhatsApp & web AI chat agents (Claude, Gemini, Grok, OpenAI) that deliver real-time route options and instant booking.",
+      "tech": ["Claude API", "Gemini API", "OpenAI API", "Webhooks", "FastAPI", "UAT"],
+      "impact": "Eliminated manual booking overhead and reduced route discovery time from hours to seconds.",
+      "link": "https://kiwibudgettours.com"
+    },
+    {
+      "id": "ai-cv-assistant",
+      "name": "AI CV & Cover Letter Generator (Telegram Bot)",
+      "status": "Live Prototype",
+      "category": "Generative AI Product",
+      "filter_tag": "ai",
+      "tagline": "Automated ATS resume alignment and tailored cover letter builder.",
+      "problem": "Job seekers waste hours tailoring CVs to complex job specs with poor keyword alignment and low interview conversion.",
+      "solution": "Built a Telegram bot that parses job URLs or text, runs Claude API schema-validated skill gap analysis, and generates tailored ATS-compliant CV and cover letter drafts.",
+      "tech": ["Claude API", "Telegram Bot API", "Railway", "Structured Outputs"],
+      "impact": "Delivers bespoke application packs in under 45 seconds.",
+      "link": "projects/ai-cv-assistant/index.html"
+    },
+    {
+      "id": "creative-hands-nidhi",
+      "name": "Creative Nails & Heena by Nidhi — Digital Service & Booking Platform",
+      "status": "Production Live",
+      "category": "Digital Transformation & Client Platform",
+      "filter_tag": "web",
+      "tagline": "Mobile-first client appointment and showcase platform.",
+      "problem": "Local service business relied on manual phone and direct messaging coordination with fragmented booking records.",
+      "solution": "Designed and deployed a mobile-responsive beauty services platform using Google AI Studio and Google Antigravity, streamlining client inquiries, service catalogs, and booking flows.",
+      "tech": ["Google AI Studio", "Google Antigravity", "Responsive UX", "Booking Workflows"],
+      "impact": "Streamlined client appointment workflows and expanded local digital visibility in Auckland.",
+      "link": "https://prateek02061997.github.io/creative_hands_by_nidhi/"
+    },
+    {
+      "id": "pragati-journal",
+      "name": "The Pragati Journal — Digital Editorial & Research Platform",
+      "status": "Production Live",
+      "category": "Digital Media & Research Platform",
+      "filter_tag": "web",
+      "tagline": "Long-form journalism and investigative research archive.",
+      "problem": "Independent research articles and investigative journalism required a dedicated, high-readability digital publication home.",
+      "solution": "Developed a full digital editorial publication platform with structured category filtering, article archives, and responsive long-form reading typography.",
+      "tech": ["Google AI Studio", "Google Antigravity", "Static Architecture", "SEO & Typography"],
+      "impact": "Delivered high-performance reading experience with zero server latency.",
+      "link": "https://prateek02061997.github.io/thepragatijournal/"
+    },
+    {
+      "id": "ai-bi-copilot",
+      "name": "AI Business Intelligence Copilot",
+      "status": "Beta Build",
+      "category": "Data Intelligence Platform",
+      "filter_tag": "analytics",
+      "tagline": "Natural language analytics engine generating instant SQL, DAX, and Plotly charts.",
+      "problem": "Non-technical stakeholders struggle to extract fast, structured answers from raw business tabular datasets.",
+      "solution": "Engineered an AI copilot that ingests raw tabular datasets, runs automated data profiling and anomaly detection, and produces Plotly charts and DAX/SQL queries.",
+      "tech": ["Python", "SQL", "Power BI", "Gemini 3.8 Flash", "Plotly", "MCP"],
+      "impact": "Reduces dataset exploratory analysis time by over 70%.",
+      "link": "projects/ai-bi-copilot/index.html"
+    },
+    {
+      "id": "ev-fuel-price-thesis",
+      "name": "NZ EV Demand & Econometric Fuel Elasticity Thesis",
+      "status": "Published Master's Thesis",
+      "category": "Applied Econometrics & Policy",
+      "filter_tag": "analytics",
+      "tagline": "15-year macroeconomic panel analysis & 3,512 km Nissan Leaf field trial.",
+      "problem": "Determining whether market fuel prices alone trigger EV adoption or if government policy stability and total cost of ownership (TCO) govern adoption velocity.",
+      "solution": "Conducted 15-year panel data analysis across 4 nations, 103-consumer primary survey, and 3,512 km real-world trial. Designed a 7-step revenue-neutral policy roadmap.",
+      "tech": ["Econometrics", "ARIMA Modeling", "Granger Causality", "Panel Regression", "Field Diagnostics"],
+      "impact": "Quantified NZ EV fuel price elasticity and outlined a roadmap targeting 48% transport CO2 reduction by 2030.",
+      "link": "projects/ev-fuel-price-thesis/index.html"
+    },
+    {
+      "id": "gilmours-delivery-efficiency",
+      "name": "Gilmours Wholesale Logistics & Workflow Redesign",
+      "status": "Completed Study",
+      "category": "Process Optimization & Operations",
+      "filter_tag": "operations",
+      "tagline": "Root-cause delay analysis and digital dispatch manifest redesign.",
+      "problem": "Loading bottlenecks and dispatch handoff lags produced customer SLA penalties in wholesale delivery.",
+      "solution": "Mapped end-to-end driver, warehouse, and dispatch workflows. Designed an automated scheduling and digital manifest handoff system.",
+      "tech": ["Process Mapping", "Root Cause Analysis", "Workflow Redesign", "SLA Governance"],
+      "impact": "Projected a 20% reduction in delivery transit delays.",
+      "link": "projects/gilmours-delivery-efficiency/index.html"
+    }
+  ]
+}

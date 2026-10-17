@@ -1,0 +1,27 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08131E"/>
+      <stop offset="1" stop-color="#102331"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" rx="18" fill="url(#bg2)"/>
+  <rect x="60" y="56" width="1160" height="88" rx="14" fill="#142C3B" stroke="#27576C"/>
+  <text x="92" y="111" fill="#D9F3FF" font-family="Segoe UI, Arial" font-size="30" font-weight="700">Retail Demand Forecast Dashboard</text>
+  <rect x="80" y="180" width="1120" height="470" rx="14" fill="#0F2230" stroke="#24455C"/>
+  <line x1="130" y1="600" x2="1080" y2="600" stroke="#2B5970"/>
+  <line x1="130" y1="260" x2="130" y2="600" stroke="#2B5970"/>
+  <polyline points="150,560 210,520 270,530 330,490 390,460 450,470 510,430 570,410 630,380 690,360"
+            fill="none" stroke="#4F9DFF" stroke-width="7" stroke-linecap="round"/>
+  <polyline points="690,360 750,340 810,320 870,310 930,300 990,290 1050,278"
+            fill="none" stroke="#7CF4FF" stroke-width="7" stroke-dasharray="10 10" stroke-linecap="round"/>
+  <rect x="850" y="200" width="330" height="130" rx="12" fill="#123247" stroke="#2A607C"/>
+  <text x="875" y="246" fill="#A7D9FF" font-family="Segoe UI, Arial" font-size="21">Forecast Accuracy (MAPE)</text>
+  <text x="875" y="296" fill="#F0FAFF" font-family="Segoe UI, Arial" font-size="42" font-weight="700">9.4%</text>
+  <rect x="850" y="350" width="330" height="130" rx="12" fill="#123247" stroke="#2A607C"/>
+  <text x="875" y="396" fill="#A7D9FF" font-family="Segoe UI, Arial" font-size="21">Waste Reduction</text>
+  <text x="875" y="446" fill="#F0FAFF" font-family="Segoe UI, Arial" font-size="42" font-weight="700">15%</text>
+  <rect x="850" y="500" width="330" height="130" rx="12" fill="#123247" stroke="#2A607C"/>
+  <text x="875" y="546" fill="#A7D9FF" font-family="Segoe UI, Arial" font-size="21">Stockout Risk</text>
+  <text x="875" y="596" fill="#F0FAFF" font-family="Segoe UI, Arial" font-size="42" font-weight="700">Low</text>
+</svg>
