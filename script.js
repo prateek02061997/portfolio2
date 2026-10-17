@@ -121,6 +121,8 @@ function openDrawer() {
   if (chatDrawer) {
     chatDrawer.classList.add("open");
     chatDrawer.setAttribute("aria-hidden", "false");
+    const bubble = document.getElementById("copilotCuriosityBubble");
+    if (bubble) bubble.classList.remove("show");
     if (chatInput) chatInput.focus();
   }
 }
@@ -325,3 +327,76 @@ document.addEventListener("click", (e) => {
     }
   }
 });
+
+// ==========================================================================
+// HERO SECTION INTERACTIVE COPILOT CHIPS
+// ==========================================================================
+document.querySelectorAll(".hero-prompt-chip[data-query]").forEach((chip) => {
+  chip.addEventListener("click", () => {
+    const query = chip.getAttribute("data-query");
+    if (query) {
+      openDrawer();
+      processUserMessage(query);
+    }
+  });
+});
+
+// ==========================================================================
+// FLOATING COPILOT CURIOSITY CALLOUT (ROTATING TICKER & AUTO-SHOW)
+// ==========================================================================
+const curiosityQuestions = [
+  "What did Prateek do in his Datacom job simulations?",
+  "How did he save 70% reporting time with AI automation?",
+  "What is his AA Motoring roadside dispatch role?",
+  "How was Kiwi Budget Tours multi-agent AI built?",
+  "What are his core SQL, Power BI & Python skills?",
+  "Tell me about his NZ EV fuel price econometrics thesis",
+];
+
+const curiosityBubble = document.getElementById("copilotCuriosityBubble");
+const curiosityTickerBtn = document.getElementById("curiosityTickerBtn");
+const curiosityTickerText = document.getElementById("curiosityTickerText");
+const curiosityCloseBtn = document.getElementById("curiosityCloseBtn");
+
+let curiosityIndex = 0;
+let curiosityInterval = null;
+
+function rotateCuriosityQuestion() {
+  if (!curiosityTickerText) return;
+  curiosityIndex = (curiosityIndex + 1) % curiosityQuestions.length;
+  curiosityTickerText.style.opacity = "0";
+  setTimeout(() => {
+    curiosityTickerText.textContent = curiosityQuestions[curiosityIndex];
+    curiosityTickerText.style.opacity = "1";
+  }, 200);
+}
+
+// Show curiosity bubble 1.2s after initial page load
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    if (curiosityBubble && chatDrawer && !chatDrawer.classList.contains("open")) {
+      curiosityBubble.classList.add("show");
+      curiosityInterval = setInterval(rotateCuriosityQuestion, 3800);
+    }
+  }, 1200);
+});
+
+// Click ticker question to launch and ask immediately
+if (curiosityTickerBtn) {
+  curiosityTickerBtn.addEventListener("click", () => {
+    if (curiosityBubble) curiosityBubble.classList.remove("show");
+    if (curiosityInterval) clearInterval(curiosityInterval);
+    const q = curiosityTickerText ? curiosityTickerText.textContent : curiosityQuestions[0];
+    openDrawer();
+    processUserMessage(q);
+  });
+}
+
+// Dismiss curiosity callout
+if (curiosityCloseBtn) {
+  curiosityCloseBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    if (curiosityBubble) curiosityBubble.classList.remove("show");
+    if (curiosityInterval) clearInterval(curiosityInterval);
+  });
+}
